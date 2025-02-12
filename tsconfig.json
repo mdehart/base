@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "outDir": "dist/src",
+      "incremental": true,
+      "target": "es2018",
+      "lib": ["es2018"],
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noUnusedLocals": true,
+      "pretty": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "noImplicitThis": true,
+      "alwaysStrict": true,
+      "strictNullChecks": true,
+      "strictFunctionTypes": true,
+      "allowJs": false
+    },
+    "exclude": ["dist"]
+  }
+  
