@@ -1,0 +1,26 @@
+integrations:
+  -
+    name: graph-jamf
+    instanceId: testInstanceId
+    directory: ./.integrations/graph-jamf
+    gitRemoteUrl: https://github.com/JupiterOne/graph-jamf.git
+    config:
+      JAMF_HOST: example-host
+      JAMF_USERNAME: example-username
+      JAMF_PASSWORD: example-password
+  -
+    name: graph-sentry
+    instanceId: testInstanceId
+    directory: ./.integrations/graph-sentry
+    gitRemoteUrl: https://github.com/JupiterOne/graph-sentry.git
+    config:
+      AUTH_TOKEN: example-token
+      ORGANIZATION_SLUG: example-organization
+storage:
+  - 
+    engine: neo4j
+    config: 
+      username: neo4j
+      password: devpass
+      uri: bolt://localhost:7687
+      database: neo4j
